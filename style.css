@@ -4,10 +4,13 @@
     --clr-accent-400: ;
     --clr-accent-100: ;
 
-    --clr-primary-400: rgb(94, 178, 130);
+    --clr-primary-400: rgb(73, 157, 75);
+    --clr-primary-700: rgb(58, 114, 86);
 
     --clr-neutral-100: rgb(255, 255, 255);
     --clr-neutral-900: rgb(23, 28, 38);
+
+    --clr-neutral-800: rgb(46, 46, 40);
 
     /* FONT VARIABLES  */
     --ff-primary: 'Inter', sans-serif;
@@ -17,6 +20,15 @@
     /* FONT WEIGHT VARIABLES */
     --fw-regular: 500;
     --fw-bold: 700;
+    --fw-400: 400;
+    --fw-300: 300;
+    --fw-200: 200;
+    --fw-100: 100;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+    --fw-1000: 1000;
 
     /* FONT SIZE VARIABLES */
     --fs-h1: 96px;
@@ -44,16 +56,24 @@
     background-color: var(--clr-neutral-900);
 }
 
-.bg-primary {
+.bg-primary-light {
     background-color: var(--clr-primary-400);
+}
+
+.bg-primary-dark {
+    background-color: var(--clr-primary-700);
 }
 
 .clr-light {
     color: var(--clr-neutral-100);
 }
 
-.clr-light {
+.clr-dark {
     color: var(--clr-neutral-900);
+}
+
+.clr-grn-dark {
+    color: var(--clr-neutral-800);
 }
 
 /* FONT UTILITY CLASSES */
@@ -65,6 +85,42 @@
 
 .fw-bold {
     font-weight: var(--fw-bold);
+}
+
+.fw-100 {
+    font-weight: var(--fw-100);
+}
+
+.fw-200 {
+    font-weight: var(--fw-200);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
+.fw-1000 {
+    font-weight: var(--fw-1000);
 }
 
 /* FONT SIZE CLASSES */
@@ -106,5 +162,52 @@
 
 .fs-body-2 {
     font-size: var(--fs-body-2);
+}
+
+
+
+/*  */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+
+/* NAVBAR */
+.nav-logo, .nav-bar ul, .nav-buttons {
+    display: flex;
+}
+
+.nav-bar {
+    align-items: center;
+    border-bottom: 1px solid  rgba(46, 46, 40, .125);
+    display: grid;
+    grid-template-columns: .3fr .5fr .3fr;
+    padding: 8px 5%;
+}
+
+.nav-logo {
+    justify-content: flex-start;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    align-self: baseline;
+    justify-content: center;
+    list-style: none;
+    gap: 64px;
+}
+
+.nav-buttons {
+    justify-content: flex-end;
+}
+
+.nav-buttons button {
+    border: none;
+    border-radius: 4px;
+    padding: 13.5px 20px;
 }
 
