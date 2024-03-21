@@ -1,0 +1,110 @@
+:root {
+
+    /* COLOR VARIABLES  */
+    --clr-accent-400: ;
+    --clr-accent-100: ;
+
+    --clr-primary-400: rgb(94, 178, 130);
+
+    --clr-neutral-100: rgb(255, 255, 255);
+    --clr-neutral-900: rgb(23, 28, 38);
+
+    /* FONT VARIABLES  */
+    --ff-primary: 'Inter', sans-serif;
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    /* FONT WEIGHT VARIABLES */
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+    /* FONT SIZE VARIABLES */
+    --fs-h1: 96px;
+    --fs-h2: 60px;
+    --fs-h3: 48px;
+    --fs-h4: 34px;
+    --fs-h5: 24px;
+    --fs-h6: 20px;
+    --fs-sub-1: 16px;
+    --fs-sub-2: 14px;
+    --fs-body-1: 16px;
+    --fs-body-2: 14px;
+}
+
+
+
+/* UTILITY CLASSES */
+
+/* COLOR CLASSES */
+.bg-light {
+    background-color: var(--clr-neutral-100);
+}
+
+.bg-dark {
+    background-color: var(--clr-neutral-900);
+}
+
+.bg-primary {
+    background-color: var(--clr-primary-400);
+}
+
+.clr-light {
+    color: var(--clr-neutral-100);
+}
+
+.clr-light {
+    color: var(--clr-neutral-900);
+}
+
+/* FONT UTILITY CLASSES */
+
+/* FONT WEIGHT CLASSES */
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+/* FONT SIZE CLASSES */
+.fs-h1 {
+    font-size: var(--fs-h1);
+}
+
+.fs-h2 {
+    font-size: var(--fs-h2);
+}
+
+.fs-h3 {
+    font-size: var(--fs-h3);
+}
+
+.fs-h4 {
+    font-size: var(--fs-h4);
+}
+
+.fs-h5 {
+    font-size: var(--fs-h5);
+}
+
+.fs-h6 {
+    font-size: var(--fs-h6);
+}
+
+.fs-sub-1 {
+    font-size: var(--fs-sub-1);
+}
+
+.fs-sub-2 {
+    font-size: var(--fs-sub-2);
+}
+
+.fs-body-1 {
+    font-size: var(--fs-body-1);
+}
+
+.fs-body-2 {
+    font-size: var(--fs-body-2);
+}
+
