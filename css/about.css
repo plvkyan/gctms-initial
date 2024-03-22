@@ -1,0 +1,38 @@
+.about-header-content {
+    align-items: center;
+    background-color: var(--clr-primary);
+    display: flex;
+    height: 100px;
+    margin-top: 128px;
+    justify-content: center;
+}
+
+.about-header {
+    align-items: center;
+    justify-content: center;
+}
+
+.history-subtext {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.history-content {
+    display: flex;
+    font-size: var(--fs-body-1);
+    gap: 48px;
+    padding: 64px 0px;
+}
+
+.history, .location {
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--clr-gray);
+    border-radius: 8px;
+    display: flex;
+    gap: 48px;
+    padding: 64px 48px 48px 48px;
+}
+
+.benefit-bento {
+    text-align: center !important;
+}
