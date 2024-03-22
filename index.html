@@ -11,10 +11,11 @@
 
     <title> Home | Grand Cedar Homes </title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <link href="/assets/webfonts/uicons-regular-rounded.css" rel="stylesheet">
 
 </head>
 
@@ -22,51 +23,105 @@
 
 <body>
     
-    <nav class="nav-bar">
-        <div class="nav-logo"> <a class="clr-grn-dark fs-h6 fw-regular" href="index.html"> Grand Cedar Homes </a> </div>
-
-        <div class="nav-links bg-light fs-body-1">
-            <ul>
+    <nav class="full-page-width border-gray">
+        <div class="nav-bar cntnr bg-light">
+            <div class="nav-logo"> 
+                <a class="clr-grn-dark fs-h6 fw-regular" href="index.html"> Grand Cedar Homes </a>     
+            </div>
+            
+            <ul class="nav-links">
                 <li> <a class="clr-grn-dark" href="#"> Home </a> </li>
                 <li> <a class="clr-grn-dark" href="#"> Services & Amenities </a> </li>
                 <li> <a class="clr-grn-dark" href="#"> About Us </a> </li>
             </ul>
-        </div>
-
-        <div class="nav-bttns">
-            <a href="#">
-                <button class="primary-bttn bg-primary-light clr-light fs-body-2"> Sign in </button>
-            </a>
-        </div>
-    </nav>
-
-    <nav class="footer">
-
-    </nav>
-
-    <section class="hero-cntr cntr">
-        <div class="hero-content">
-            <div class="hero-header fw-800"> Join the community. </div>
-            <div class="hero-subtext fs-body-1"> 
-                The website for Grand Cedar Homes located in Bignay Valenzuela City. Place reservations and pay your bills
-                without leaving the comfort of your home–it's never been easier. 
-            </div>
-            <div class="hero-bttns">
+            
+            <div class="nav-bttns">
                 <a href="#">
-                    <button class="primary-bttn bg-primary-light clr-light fs-body-1">
-                        Sign in
-                    </button>
-                </a>
-                <a href="">
-                    <button class="secondary-bttn clr-grn-dark fs-body-1">
-                        Get to know us
-                    </button>
+                    <button class="primary-bttn bg-primary-light clr-light fs-body-2"> Sign in </button>
                 </a>
             </div>
         </div>
+    </nav>
 
-        <img class="hero-img" src="/assets/imgs/gctms-hero-img.jpg" alt="Images of the Grand Cedar Homes subdivision">
+    <section class="hero-section full-page-width">
+        <div class="hero cntnr">
+            <div class="hero-content">
+                <div class="hero-header"> Join the community. </div>
+
+                <div class="hero-subtext"> 
+                    Welcome to the official website of Grand Cedar Homes! If you're already a member, sign in with this button.
+                    If not, get in contact with us!
+                </div>
+
+                <div class="hero-bttns">
+                    <a href="#"> <button class="primary-bttn"> Sign In </button> </a>
+                    <a href="#"> <button class="secondary-bttn"> Contact Us </button> </a>
+                </div>
+            </div>   
+
+            <img src="/assets/imgs/gctms-hero-img.jpg" alt="">
+        </div>
     </section>
+
+    <section class="benefits-section full-page-width bg-secondary">
+        <div class="benefits cntnr">
+            <div class="benefits-header fs-h4 fw-regular"> Why use the site? </div>
+        
+            <div class="benefit-bento-cntnr cntnr">
+                <div class="benefit-bento"> 
+                    <i class="fi fi-rr-globe"> </i>
+                    <div class="bento-header"> Pay online </div>
+                    <div class="bento-desc"> Pay your monthly dues and other HOA-related fees in the comfort of your home. </div>
+                </div>
+
+                <div class="benefit-bento">
+                    <i class="fi-rr-receipt"> </i>
+                    <div class="bento-header"> Online receipts </div>
+                    <div class="bento-desc"> Ditch the papers, download and print your receipts from the site. </div>
+                </div>
+
+                <div class="benefit-bento">
+                    <i class="fi-rr-daily-calendar"> </i>
+                    <div class="bento-header"> Reserve online </div>
+                    <div class="bento-desc"> You can now borrow chairs, tables, and tents online. </div>
+                </div>
+
+                <div class="benefit-bento">
+                    <i class="fi-rr-book"> </i>
+                    <div class="bento-header"> Check your history </div>
+                    <div class="bento-desc"> No more requesting payment and reservation history on-site. </div>
+                </div>
+
+                <div class="benefit-bento">
+                    <i class="fi-rr-heart"> </i>
+                    <div class="bento-header"> I miss you </div>
+                    <div class="bento-desc"> Bumalik ka na please </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="register full-page-width">
+        <div class="register-now cntnr">
+            <div class="register-header fs-h3 fw-bold"> Register Today </div>
+
+            <div class="register-subtext fs-body-1"> Visit the GCHOAI Office and get member-only access.  </div>
+
+            <button class="register-bttn bg-dark clr-light"> Already have an account? </button>
+        </div>
+
+    </section>
+
+    <footer class="full-page-width">
+        <div class="footer-section cntnr clr-grn-dark">
+            <div class="footer-logo fs-h6 fw-regular"> Grand Cedar Homes </div>
+
+            <ul class="footer-links">
+                <li> Terms & Conditions </li>
+                <li> Privacy </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
